@@ -10,6 +10,6 @@ How to run: python Hello_World_Simple.py
 # Hello World
 print("Hello, World!")
 # Ask user for their name
-user_name = input('Please enter your name: ')
+user_name = input('Please enter your name: ').lower().capitalize()
 # Say hello
 print(f"Hello, {user_name}! Welcome to Python programming!")
